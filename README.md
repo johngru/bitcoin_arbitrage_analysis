@@ -1,6 +1,6 @@
 # Bitcoin Arbitrage Analysis
 
-<img src="./Resources/bitcoin_readme.jpg" alt="bitcoin" height=30% class="center"/>
+<img src="./Resources/bitcoin_readme.jpg" alt="bitcoin" width=50% class="center"/>
 
 A report summarized in a Jupyter notebook gathering, cleaning, analyzing, and computing previously profitable arbitrage opportunities between [Bitstamp](https://www.bitstamp.net/) and [Coinbase](https://www.coinbase.com/).  
 
@@ -31,9 +31,15 @@ This should open an instance of Jupyter lab in your default explorer applicaiton
 
 This Jupyter notebook is intended as an analysis of previous profitable arbitrage opportunities of bitcoin on [Bitstamp](https://www.bitstamp.net/) and [Coinbase](https://www.coinbase.com/).
 
-### To Start
-### Program flow
-### The Results
+To view the analysis, open up a gitbash or terminal in the top folder of the cloned repository.  To view the analysis, open the ```crypto_arbitrage.ipynb``` file, which should look like the displayed version below:
+
+<img src="./Resources/bitcoin_arbitrage_start.png" alt="bitcoin_arbitrage_report_preview" width="50%"/>
+
+Simply run the Kernel and the results/analysis will populate the report.
+
+## Data Set Information
+
+The data used in this report is taken from exchange data from [Bitstamp](https://www.bitstamp.net/) and [Coinbase](https://www.coinbase.com/).  These files are located in the ```Resources``` directory and are named ```bitstamp.csv``` and ```coinbase.csv```, respectively.  Each file contains the timestamp (incremented by the minute), open bitcoin price, close bitcoin price, the high, the low, the BTC Volume, the USD Volume, and the Weighted Price.  For this analysis, only the close price is considered from each exchange.  The data convers the first quarter of 2018, which is from January 1st - March 31st, 2018. 
 
 ---
 
